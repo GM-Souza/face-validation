@@ -40,3 +40,8 @@ O processo de validação segue os seguintes passos:
 5.  **Comparação**:
     * No modo de **Validação**, o embedding recém-gerado é comparado com o embedding armazenado durante o **Cadastro**.
     * A comparação é feita usando a métrica de **Similaridade de Cosseno**. Se o resultado for superior a um limiar pré-definido (neste código, `0.8f`), os rostos são considerados da mesma pessoa.
+
+## Demonstração
+
+https://github.com/user-attachments/assets/8cff37cf-3adb-472f-a6de-2e00a9a763c4
+
