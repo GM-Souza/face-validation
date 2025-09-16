@@ -40,16 +40,3 @@ O processo de validação segue os seguintes passos:
 5.  **Comparação**:
     * No modo de **Validação**, o embedding recém-gerado é comparado com o embedding armazenado durante o **Cadastro**.
     * A comparação é feita usando a métrica de **Similaridade de Cosseno**. Se o resultado for superior a um limiar pré-definido (neste código, `0.8f`), os rostos são considerados da mesma pessoa.
-
-## 🚀 Como Executar o Projeto
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-    ```
-2.  **Abra no Android Studio:**
-    * Abra o Android Studio.
-    * Selecione `Open an Existing Project` e navegue até a pasta do projeto clonado.
-3.  **Compile e Execute:**
-    * Aguarde o Gradle sincronizar as dependências.
-    * Execute o aplicativo em um emulador ou dispositivo físico Android (API 21+).
